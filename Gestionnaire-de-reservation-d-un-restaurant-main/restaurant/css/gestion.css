@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade', serif;
+    background-image: url('../media/fond1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #4a2e14;
+}
+table{
+    margin-top:20px;
+}
+td{
+    text-align: center;
+    width : 130px;
+    height: 70px;
+    border: 1px solid #a52a2a;
+    border-radius: 3%;
+    padding: 5px;
+    background-color: #f0c9a1;
+}
+th{
+    text-align: center;
+    height: 30px;
+}
+.dispo{
+    color: #fff;
+    background-color: #149734;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+}
+.Pdispo{
+    color: #fff;
+    background-color: #f00;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+}
+.conteneur {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgba(203, 194, 185, 0.92);
+    
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 2px solid #d4a373;
+    box-shadow: 0 0 20px rgba(164, 94, 33, 0.3);
+
+    flex: 2;
+}
+
+.conteneurGlobal {
+    display: flex;
+}
+
+#infosCreneau {
+    text-align: center;
+    border: 1px solid #a52a2a;
+    background-color: #f7ede3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: fit-content;
+    display: none;
+    z-index: 9999;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    color: #a52a2a;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #f2d9b1;
+}
+
+button {
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.resas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.resa {
+    text-align: center;
+    width: 20%;
+    background-color: #dab48d;
+    border: 1px solid #a52a2a;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #a52a2a;
+}
+.b {
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.bCreneau {
+    margin:5px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #8b1c1c;
+}
+
+label {
+    font-weight: bold;
+    color: #7b3f00;
+}
+.boutons-utilisateur {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px 15px;
+    margin: 40px auto;
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+}
+
+.boutons-utilisateur button {
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btSupp {
+    margin-left: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.btSupp:hover {
+    background-color: #cc0000;
+}
+
+.ligne-resa {
+    margin-bottom: 8px;
+}
+
+.navMois{
+    text-align: center;
+}

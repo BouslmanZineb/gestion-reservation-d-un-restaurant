@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade', serif;
+    background-image: url('../media/fond1.jpg'); /* image déco marocaine */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #4a2e14;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: rgba(203, 194, 185, 0.80);
+    padding: 30px 40px;
+    border-radius: 15px;
+    border: 2px solid #d4a373;
+    box-shadow: 0 0 20px rgba(164, 94, 33, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #a52a2a;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: 'Scheherazade', serif;
+    text-shadow: 1px 1px 2px #f2d9b1;
+    background-color: rgba(203, 194, 185, 0.80); /* effet doré en fond léger */
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 1px solid #d4a373;
+    box-shadow: 0 2px 10px rgba(164, 94, 33, 0.2);
+}
+
+
+.info-user p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: #7b3f00;
+}
+
+.reservations {
+    margin-top: 30px;
+}
+
+.reservation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.reservation-card {
+    width: 150px;
+    height: 150px;
+    background-color: #d4a373;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.reservation-card:hover {
+    background-color: #c87f32;
+    transform: scale(1.05);
+}
+
+.date {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.btn-deconnexion {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-deconnexion a {
+    background-color: #a52a2a;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Scheherazade', serif;
+    border: 2px solid #d4a373;
+    box-shadow: 0 0 10px rgba(164, 94, 33, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.btn-deconnexion a:hover {
+    background-color: #8b1c1c;
+    transform: scale(1.05);
+}
